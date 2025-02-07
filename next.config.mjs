@@ -33,8 +33,7 @@ const nextConfig = {
     buildActivity: true,
     buildActivityPosition: "bottom-right",
   },
-  basePath: '/gitpitch', 
-  assetPrefix: '/gitpitch',
+  
 };
 
 export default withSentryConfig(nextConfig, {

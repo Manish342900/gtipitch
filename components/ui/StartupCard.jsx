@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn, formatDate } from '../utils'
+import { cn, formatDate } from '../../app/utils'
 import {EyeIcon} from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';

@@ -10,7 +10,7 @@ import { Send } from "lucide-react";
 import { z } from "zod";
 import { useToast } from "@/hooks/use-toast";
 import { useRouter } from "next/navigation";
-import { createPitch } from "../actions";
+import { createPitch } from "../../app/actions";
 
 const StartupForm = () => {
   const [errors, setErrors] = useState({});

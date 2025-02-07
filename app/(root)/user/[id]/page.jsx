@@ -4,8 +4,8 @@ import { AUTHOR_BY_ID_QUERY } from '@/sanity/lib/query'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import React, { Suspense, use } from 'react'
-import { StartupCardSkeleton } from "@/app/components/StartupCard";
-import UserStartup from '@/app/components/UserStartup'
+import { StartupCardSkeleton } from "@/components/ui/StartupCard";
+import UserStartup from '@/components/ui/UserStartup'
 
 const page = async({params}) => {
     const id=(await params).id

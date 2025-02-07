@@ -8,7 +8,7 @@ import Link from 'next/link'
 export const experimental_ppr=true
 import MarkdownIt from 'markdown-it'
 import { Skeleton } from '@/components/ui/skeleton'
-import View from '@/app/components/View'
+import View from '@/components/ui/View'
 
 const md= new MarkdownIt();
 

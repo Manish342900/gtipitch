@@ -34,7 +34,7 @@ import { BadgePlusIcon, LogOut, LogOutIcon } from 'lucide-react';
                 await signOut({ redirect: true, callbackUrl: '/' })
               }} >
               <button type='submit' >
-                <span className='max-sm:hidden'>LogIn</span>
+                <span className='max-sm:hidden'>LogOut</span>
                 
                 <LogOutIcon className='size-6 sm:hidden text-red-600'/>
                 
